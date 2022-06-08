@@ -1,0 +1,10 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: es-cert.jks
+  namespace: tools
+spec:
+  type: truststore
+  description: JKS certificate for Event Streams instance es-demo
+  data: 
+  

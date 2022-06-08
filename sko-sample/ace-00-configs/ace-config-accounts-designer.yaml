@@ -1,0 +1,10 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: ace-sf-designer-account
+  namespace: tools
+spec:
+  type: accounts
+  description: Credentials to connect to SF from Designer Flow
+  data: YWNjb3VudHM6CiAgc2FsZXNmb3JjZToKICAgIC0gbmFtZTogSkdSU0ZBY2N0CiAgICAgIGNyZWRlbnRpYWxzOgogICAgICAgIHVzZXJuYW1lOiAKICAgICAgICBwYXNzd29yZDogCiAgICAgICAgY2xpZW50SWRlbnRpdHk6IAogICAgICAgIGNsaWVudFNlY3JldDogCiAgICAgIGVuZHBvaW50OgogICAgICAgIGxvZ2luVXJsOiAK
+  
